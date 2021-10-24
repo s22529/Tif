@@ -1,0 +1,287 @@
+C:\Users\sofik>git config --global user.name "Sofiia Kr"
+
+C:\Users\sofik>git config --global user.email s22529@pjwstk.edu.pl
+
+C:\Users\sofik>git config --global merge.tool vimdiff
+
+C:\Users\sofik>git init
+Reinitialized existing Git repository in C:/Users/sofik/.git/
+
+C:\Users\sofik>echo 'My Project' > README
+
+C:\Users\sofik>git add README
+
+C:\Users\sofik>git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README
+        new file:   S22529
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    S22529
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitconfig
+        .jdks/
+        .m2/
+        .viminfo
+        3D Objects/
+        AppData/
+        Contacts/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Sadklas2 c.doc
+        Saved Games/
+        Searches/
+        Thumbs.db
+        Videos/
+        _wicz 12.doc
+        en_windows_10_education_version_1703_updated_march_2017_x64_dvd_10189297.iso
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        ~$KOL3.DOC
+        ~$dklas2 c.doc
+        ~$icz 12.doc
+        ~$l3(maj).doc
+
+
+C:\Users\sofik>git commit -m "README"
+[master (root-commit) abe9763] README
+ 2 files changed, 2 insertions(+)
+ create mode 100644 README
+ create mode 100644 S22529
+
+C:\Users\sofik>git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    S22529
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitconfig
+        .jdks/
+        .m2/
+        .viminfo
+        3D Objects/
+        AppData/
+        Contacts/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Sadklas2 c.doc
+        Saved Games/
+        Searches/
+        Thumbs.db
+        Videos/
+        _wicz 12.doc
+        en_windows_10_education_version_1703_updated_march_2017_x64_dvd_10189297.iso
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        ~$KOL3.DOC
+        ~$dklas2 c.doc
+        ~$icz 12.doc
+        ~$l3(maj).doc
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\sofik>echo 'My Project' > s22529
+
+C:\Users\sofik>git add s22529
+
+C:\Users\sofik>git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitconfig
+        .jdks/
+        .m2/
+        .viminfo
+        3D Objects/
+        AppData/
+        Contacts/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Sadklas2 c.doc
+        Saved Games/
+        Searches/
+        Thumbs.db
+        Videos/
+        _wicz 12.doc
+        en_windows_10_education_version_1703_updated_march_2017_x64_dvd_10189297.iso
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        ~$KOL3.DOC
+        ~$dklas2 c.doc
+        ~$icz 12.doc
+        ~$l3(maj).doc
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\sofik>git commit -m "s22529"
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitconfig
+        .jdks/
+        .m2/
+        .viminfo
+        3D Objects/
+        AppData/
+        Contacts/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+        NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Sadklas2 c.doc
+        Saved Games/
+        Searches/
+        Thumbs.db
+        Videos/
+        _wicz 12.doc
+        en_windows_10_education_version_1703_updated_march_2017_x64_dvd_10189297.iso
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        ~$KOL3.DOC
+        ~$dklas2 c.doc
+        ~$icz 12.doc
+        ~$l3(maj).doc
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\sofik>git fetch [sofiia]
+fatal: ']' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\sofik>git fetch
+
+C:\Users\sofik>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\sofik>git log --stat >> log.txt
+
+C:\Users\sofik>
