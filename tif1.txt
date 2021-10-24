@@ -1,3 +1,4 @@
+*edited*
 C:\Users\sofik>git config --global user.name "Sofiia Kr"
 
 C:\Users\sofik>git config --global user.email s22529@pjwstk.edu.pl
